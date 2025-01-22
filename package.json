@@ -1,6 +1,6 @@
 {
   "name": "efc-yash",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --no-lint && pm2 restart all",

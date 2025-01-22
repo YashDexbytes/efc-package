@@ -142,9 +142,9 @@ const Login: React.FC = () => {
 
   const logoSrc = isTenant
     ? getSubdomain() === "asb"
-      ? "/images/logo/aapka-apna-saloon.svg"
-      : "/images/logo/logo4.webp"
-    : "/images/logo/book-my-stylist-main.svg";
+      ? "/images/aapka-apna-saloon.svg"
+      : "/images/logo4.webp"
+    : "/images/book-my-stylist-main.svg";
 
   return (
     <div id="login-container">

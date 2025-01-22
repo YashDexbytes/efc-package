@@ -599,7 +599,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
       : userType === "Receptionist"
         ? receptionistMenuGroups
         : tenantMenuGroups;
-  const logoSrc = "/images/logo/logo4.webp";
+  const logoSrc = "/images/logo4.webp";
 
   return (
     <ClickOutside onClick={() => setSidebarOpen(false)}>

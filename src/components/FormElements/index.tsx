@@ -5,10 +5,6 @@ import CheckboxFour from "@/components/Checkboxes/CheckboxFour";
 import CheckboxOne from "@/components/Checkboxes/CheckboxOne";
 import CheckboxThree from "@/components/Checkboxes/CheckboxThree";
 import CheckboxTwo from "@/components/Checkboxes/CheckboxTwo";
-import SwitcherFour from "@/components/Switchers/SwitcherFour";
-import SwitcherOne from "@/components/Switchers/SwitcherOne";
-import SwitcherThree from "@/components/Switchers/SwitcherThree";
-import SwitcherTwo from "@/components/Switchers/SwitcherTwo";
 import DatePickerTwo from "@/components/FormElements/DatePicker/DatePickerTwo";
 import DatePickerOne from "@/components/FormElements/DatePicker/DatePickerOne";
 import MultiSelect from "@/components/FormElements/MultiSelect";
@@ -72,12 +68,6 @@ const FormElements = () => {
               <h3 className="font-medium text-black dark:text-white">
                 Toggle switch input
               </h3>
-            </div>
-            <div className="flex flex-col gap-5.5 p-6.5">
-              <SwitcherOne />
-              <SwitcherTwo />
-              <SwitcherThree />
-              <SwitcherFour />
             </div>
           </div>
 

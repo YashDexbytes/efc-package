@@ -22,7 +22,7 @@ const Dashboard = () => {
 
                   <Image
                     className="mb-5.5 dark:hidden"
-                    src="/images/logo/CrafterImage.jpg"
+                    src="/images/CrafterImage.jpg"
                     alt="Logo"
                     width={400}
                     height={300}
